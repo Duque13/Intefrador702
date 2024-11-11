@@ -1,0 +1,45 @@
+{
+  "name": "poyectointegrador702",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/Duque13/React.git",  // URL de tu repositorio de GitHub Pages (cambia "alextessfp" y "integrador702" por tu usuario y repositorio)
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.3",
+    "chart": "^0.1.2",
+    "chart.js": "^4.4.6",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",  // Comando para arrancar el servidor de desarrollo
+    "build": "react-scripts build",  // Comando para construir el proyecto para producción
+    "test": "react-scripts test",  // Comando para correr los tests
+    "eject": "react-scripts eject",  // Comando para extraer la configuración
+    "predeploy": "npm run build",  // Este script ejecuta `npm run build` antes de desplegar
+    "deploy": "gh-pages -d build"  // Este script sube la carpeta `build` a GitHub Pages
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
